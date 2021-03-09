@@ -55,3 +55,23 @@ Given an array nums, write a function to move all 0's to the end of it while mai
 
 1. 배열의 요소가 0이 아니면 다른 배열에 순서대로 저장
 2. 남은 사이즈 만큼 0으로 채움
+
+# Array-448 Find All Numbers Disappeared in an Array
+
+```
+Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+
+Find all the elements of [1, n] inclusive that do not appear in this array.
+
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+```
+
+## 내 풀이 방식
+---
+
+1. 배열을 정렬한다.
+2. 배열의 크기가 0보다 작거나 같으면 빈 List 리턴
+3. 배열의 길이 만큼 반복
+4. Arrays.binarySearch를 사용해서 배열 내에 특정 값이 있는지 확인
+
+다른 언어에서는 indexOf를 사용했겠지만 자바에서는 어떤걸 사용하는지 몰랐다. 찾아보니 Arrays.binarySearch가 있었다.
