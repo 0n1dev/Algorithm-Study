@@ -10,3 +10,11 @@
 
     - leetcode 448
 ---
+
+# 2주차 자료구조와 알고리즘
+---
+
+- [스택](./Stack)
+    - leetcode 155
+    - leetcode 94
+    - leetcode 20
