@@ -12,7 +12,7 @@ class Solution {
         
         ListNode nodeTemp = null;
         int idx = 0;
-        
+
         for(Integer e : s) {
             if (idx == 0) {
                 nodeTemp = new ListNode(e);
@@ -23,5 +23,37 @@ class Solution {
         }
         
         return nodeTemp;
+    }
+}
+
+/**
+* 다른 풀이
+*/
+
+class Solution {
+    ListNode head;
+
+    public ListNode reverseList(ListNode head) {
+        bs(head);
+        return this.head;
+    }
+
+    public ListNode bs(ListNode node) {
+        if (node == null) {
+            head = null;
+            return head;
+        }
+        
+        ListNode newNode = new ListNode(node.val);
+
+        if (node.next == null) {
+            head = newNode;
+            return newNode;
+        }
+
+        ListNode nodeTemp = bs(node.next);
+
+        nodeTemp.next = newNode;
+        return newNode;
     }
 }
