@@ -31,3 +31,5 @@
 
 - [링크드리스트](./LinkedList)
     - leetcode 206
+    - leetcode 21
+    - leetcode 148
