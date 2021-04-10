@@ -34,10 +34,17 @@
     - leetcode 21
     - leetcode 148
 
-# 4주차 자료구조와 알고리즘
+# 5주차 자료구조와 알고리즘
+---
+
+- [힙](./Heap)
+    - leetcode 347
+    - Programmers 더 맵게
+
+# 6주차 자료구조와 알고리즘
 ---
 
 - [트리](./Tree)
     - leetcode 104
-    - leetcode 203
+    - leetcode 230
     - leetcode 617
