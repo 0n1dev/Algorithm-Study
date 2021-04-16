@@ -64,3 +64,14 @@ public class MyGraph {
     }
 }
 ```
+
+# 그래프에서 BFS, DFS
+---
+
+- BFS - QUEUE 사용
+    - 시작 노드를 Queue에 넣음
+    - Queue에서 꺼내서 자식들 Queue 에 추가 (추가 시 이미 한번 들어갔던 노드는 X)
+    - 반복
+- DFS - STACK 사용
+    - 시작 노드를 Stack에 넣음
+    - Stack에서 꺼내서 자식들을 Stack에 추가 (추가 시 이미 한번 들어갔던 노드는 X)
