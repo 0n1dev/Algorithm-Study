@@ -16,6 +16,7 @@ class Solution {
             }
         }
 
+        // matrix query 실행
         int cnt = 0;
         for (int[] query : queries) {
             pq.clear();
